@@ -1,0 +1,65 @@
+header, .blueBackground {
+    background-color: #e1f3fd;
+    border-bottom-left-radius: 100px;
+}
+.yellowShadow {
+    border-radius: 10px !important;
+    border-bottom: 20px solid #ffc107 !important;
+    transition: .7s;
+    box-shadow: -2px -6px 12px 7px rgba(0,0,0,0.25)!important;
+}
+.decor {
+    width: 80px;
+    padding: 4px;
+    background-color: #daebf4;
+    bottom: -4px !important; 
+    left: 13px !important;
+}
+.coment {
+    top: 20%;
+    right: 0px;
+}
+.triangle {
+    width: 65px;
+    height: 69px;
+    clip-path: polygon(4% 14%, 1% 0%, 50% 1%)!important;
+    background-color: #2f2f30 !important;
+    top: 11px !important;
+    right: -36px !important;
+}
+    
+    
+
+.yellowShadow:hover {
+    border-bottom: 20px solid #daebf4 !important;
+}
+
+.roundBorder {
+    border-radius: 10px !important;
+}
+main {
+    background-color: #e1f3fd;
+    border-bottom-right-radius: 100px;
+}
+.no-background-border {
+    border: none !important;
+    background-color: transparent !important;
+}
+.coloredCircle {
+    width: 50px !important;
+    height: 50px !important;
+}
+footer {
+    width: 100%;
+    background-color: #2f2f30;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+footer img {
+    object-fit: contain !important;
+}
